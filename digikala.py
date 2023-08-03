@@ -42,9 +42,10 @@ time.sleep(5)
 #test name is correct or not
 txtusername = driver.find_element(By.XPATH, '//span[@class="text-subtitle-strong"]').text
 if(txtusername=="راضیه حسین مردی"):
-   print("[+] Login successful") 
+    print("[!] Login failed")
+   
 else:
     
-    
-    print("[!] Login failed")
+    print("[+] Login successful") 
+   
 
